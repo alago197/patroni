@@ -136,7 +136,7 @@ PostgreSQL
 
 REST API
 -------- 
--  **connect\_address**: IP address and port to access the REST API.
+-  **connect\_address**: IP address and port (or hostname) to access the REST API.
 -  **listen**: IP address and port that Patroni will listen to, to provide health-check information for HAProxy.
 -  **Optional**:
         -  **authentication**:
